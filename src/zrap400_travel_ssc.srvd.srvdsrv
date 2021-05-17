@@ -1,0 +1,9 @@
+define service ZRAP400_TRAVEL_SSC {
+  expose ZRAP400_C_TRAVEL_SSC as Travel;
+  expose ZRAP400_C_BOOKING_SSC as Booking;
+  expose /DMO/I_CONNECTION as Connection;
+  expose /DMO/I_FLIGHT as Flight;
+  expose /DMO/I_CARRIER as Airline;
+  expose I_CURRENCY as Currency;
+  expose /DMO/I_CUSTOMER as Customer;
+}
